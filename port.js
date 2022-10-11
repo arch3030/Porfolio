@@ -15,6 +15,8 @@ function loadPage()
     ass5.onclick = as5LoadPage
     var ass6 = document.getElementById("as6")
     ass6.onclick = as6LoadPage
+    var proj = document.getElementById("pj")
+    proj.onclick = pjLoadPage
 
     
 }
@@ -45,5 +47,9 @@ function as5LoadPage()
 function as6LoadPage()
 {
     location.href= "https://arch3030.github.io/WEB-assignment6/";
+}
+function pjLoadPage()
+{
+    location.href= "https://drive.google.com/file/d/1T4GbcDgPW_yRhjbCGSP28EV6SQlhldBC/view?usp=sharing";
 }
 
